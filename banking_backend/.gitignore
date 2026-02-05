@@ -1,0 +1,16 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# Application secrets
+application.yml
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS files
+.DS_Store
