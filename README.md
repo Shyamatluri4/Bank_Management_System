@@ -16,7 +16,7 @@ The application supports secure authentication, account management, transactions
 - Spring Boot
 - JWT Authentication
 - Maven
-- MySQL / PostgreSQL
+- MySQL
 
 ### Frontend
 
