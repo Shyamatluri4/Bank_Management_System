@@ -63,12 +63,12 @@ Make sure the database is configured before starting backend.
 
 ### Login Page
 
-(<img width="1823" height="895" alt="Image" src="https://github.com/user-attachments/assets/a7264ce8-c0e0-4623-80c6-2e9ec16a776a" />)
+<img width="1896" height="894" alt="Image" src="https://github.com/user-attachments/assets/4facf793-d485-444c-a74d-dc3d17333293" />
 
 ### Register Page
 
-(<img width="1883" height="889" alt="Image" src="https://github.com/user-attachments/assets/a95d1348-bbc7-4e74-9371-23f34814d8f5" />)
+<img width="1883" height="889" alt="Image" src="https://github.com/user-attachments/assets/a95d1348-bbc7-4e74-9371-23f34814d8f5" />
 
 ### Dashboard
 
-(<img width="1896" height="894" alt="Image" src="https://github.com/user-attachments/assets/4facf793-d485-444c-a74d-dc3d17333293" />)
+<img width="1823" height="895" alt="Image" src="https://github.com/user-attachments/assets/a7264ce8-c0e0-4623-80c6-2e9ec16a776a" />
