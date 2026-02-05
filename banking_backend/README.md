@@ -10,16 +10,14 @@ Handles authentication, account operations, transactions, and data persistence.
 - Email verification
 - Transaction and payment history
 
-
 ## ⚙️ Technologies Used
 
-- Java  
-- Spring Boot  
-- JWT Authentication  
-- Maven  
-- JPA   
+- Java
+- Spring Boot
+- JWT Authentication
+- Maven
+- JPA
 - MySQL
-
 
 ## Running Backend
 
@@ -40,7 +38,6 @@ spring.datasource.password=your_password
 jwt.app.secret= your_secret_key
 ```
 
-
 1. Navigate to this directory:
    ```bash
    cd banking_backend
@@ -51,12 +48,38 @@ jwt.app.secret= your_secret_key
    ```
 3. The backend will be run at [http://localhost:8080](http://localhost:8080)
 
+## 🔗 API Endpoints Overview
 
-### ❗ Common Issues
+The backend exposes RESTful APIs secured using JWT authentication.
 
--400 / 500 errors → Check request body & validation
--JWT errors → Verify secret key consistency
+### 🔐 Authentication & User Management
 
+- **POST** `/register` – Register a new user
+- **POST** `/login` – Authenticate user and issue JWT
+- **GET** `/verify` – Verify user account via email token
+
+---
+
+### 🏦 Account Management
+
+- **POST** `/account/create_account` – Create a new bank account
+- **GET** `/app/dashboard` – Fetch user dashboard details
+
+---
+
+### 💸 Transactions
+
+- **POST** `/transact/deposit` – Deposit funds
+- **POST** `/transact/withdraw` – Withdraw funds
+- **POST** `/transact/transfer` – Transfer funds to another account
+
+---
+
+### 💳 Payments & History
+
+- **POST** `/transact/payment` – Make a payment
+- **GET** `/app/payment_history` – View payment history
+- **GET** `/app/transaction_history` – View transaction history
 
 ## 📂 Project Structure
 
