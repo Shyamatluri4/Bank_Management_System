@@ -39,7 +39,7 @@ Provides user-friendly UI for authentication, dashboard, and transactions.
 
 ## 📂 Project Structure
 
-`
+```
 banking_frontend
 ├── src
 │ ├── components
@@ -52,6 +52,6 @@ banking_frontend
 ├── public
 ├── package.json
 └── README.md
-`
+```
 
 Ensure backend is running on: `http://localhost:8080`
