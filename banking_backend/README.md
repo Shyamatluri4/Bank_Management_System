@@ -60,7 +60,7 @@ jwt.app.secret= your_secret_key
 
 ## 📂 Project Structure
 
-`
+```
 banking_backend
 ├── src/main/java/com/bankingApp
 │ ├── controllers
@@ -73,4 +73,4 @@ banking_backend
 │ └── application.properties
 ├── pom.xml
 └── README.md
-`
+```
